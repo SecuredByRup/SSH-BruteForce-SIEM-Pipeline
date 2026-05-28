@@ -23,7 +23,7 @@ An end-to-end project demonstrating SSH attack simulation, Filebeat log ingestio
 
 #### Raw Attack Logs Evidence:
 
-![Raw Telemetry](Screenshot%20(98).png)
+![Raw Telemetry](images/Screenshot%20(98).png)
 
 *Visualizing the raw attack simulation data directly inside the target system's /var/log/auth.log stream. This establishes the malicious baseline patterns (Invalid user invaliduser) that our SIEM pipeline aims to detect.*
 
@@ -63,7 +63,7 @@ To outsmart the strict data-type parsing engine without changing the database sc
 
 #### Custom Rule UI Verification:
 
-![Custom Rule Logic](Screenshot%20(99).png)
+![Custom Rule Logic](images/Screenshot%20(99).png)
 
 *The finalized, validated Custom EQL Rule settings inside the Kibana UI. By mapping the query logic directly to the structured event.kind schema keyword primitive, all data-type compilation conflicts were successfully bypassed.*
 
@@ -81,6 +81,6 @@ The moment the rule configuration saved, the background detection engine execute
 
 #### Frontend and Backend Synchronization Proof:
 
-![Final 1-to-1 Match](Screenshot%20(97).png)
+![Final 1-to-1 Match](images/Screenshot%20(97).png)
 
 *End-to-end signal synchronization. The Kibana SIEM security operations dashboard (left) aligns flawlessly with the raw backend cluster API document count (right), proving that exactly 180 high-fidelity security alerts were successfully generated and processed.*
